@@ -1,6 +1,8 @@
 <?php
 
-namespace MenuWithAuthentication\Http;
+namespace MenuWithAuthentication\Http\ViewComposers;
+
+use Illuminate\Contracts\View\View;
 
 /**
  * Created by PhpStorm.
@@ -9,7 +11,6 @@ namespace MenuWithAuthentication\Http;
  * Time: 17:10
  */
 
-use View;
 
 /**
  * Class SidebarComposer
@@ -24,6 +25,6 @@ class SidebarComposer {
      */
     public function compose(View $view)
     {
-        
+        $view->with('menu', array());
     }
 }

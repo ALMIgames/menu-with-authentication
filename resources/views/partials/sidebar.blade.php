@@ -42,7 +42,7 @@
             </li>
 
             @foreach ($menu as $menuitem)
-                {{$menuitem}}
+                {{ $menuitem }}
             @endforeach
             <!--
             foreach(){
