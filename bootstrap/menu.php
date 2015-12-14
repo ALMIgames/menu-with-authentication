@@ -8,12 +8,15 @@
 
 
 //Home
-MenuWithAuthentication::Menu
+MenuWithAuthentication::Menu()->title('Home')
 
 //Another link
-MenuWithAuthentication::Menu
+MenuWithAuthentication::Menu()->title('Another link')
 
 //Multilevel
-MenuWithAuthentication::Menu
- MenuWithAuthentication::Menu
- MenuWithAuthentication::Menu
+MenuWithAuthentication::Menu()->title('Multilevel')
+MenuWithAuthentication::Menu()->title('Level2')
+MenuWithAuthentication::Menu()->title('Level3')
+
+
+MenuWithAuthentication::Menu()->title('Ultim element')
