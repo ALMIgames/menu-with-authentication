@@ -8,12 +8,12 @@
 
 
 //Home
-Menu::
+MenuWithAuthentication::Menu
 
 //Another link
-Menu::
+MenuWithAuthentication::Menu
 
 //Multilevel
-Menu::
-    Menu::
-    Menu::
+MenuWithAuthentication::Menu
+ MenuWithAuthentication::Menu
+ MenuWithAuthentication::Menu
