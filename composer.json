@@ -10,7 +10,9 @@
         "barryvdh/laravel-debugbar": "^2.0",
         "acacha/admin-lte-template-laravel": "1.*",
         "barryvdh/laravel-ide-helper": "^2.1",
-        "zizaco/entrust": "^1.5"
+        "zizaco/entrust": "^1.5",
+        "gmsantosxl/inspiring": "^2.0",
+        "gmsantos/inspiring": "^2.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

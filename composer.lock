@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1091886010008e02d3bb85240a9a34e6",
-    "content-hash": "c03d9ee0c64f70175387cb4aee8b1d92",
+    "hash": "28875420056785356810bc012aa8e7b2",
+    "content-hash": "836cbb2738cb973047b7dcbbc86bf6b8",
     "packages": [
         {
             "name": "acacha/admin-lte-template-laravel",
@@ -385,6 +385,97 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "gmsantos/inspiring",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gmsantos/inspiring.git",
+                "reference": "265365c7db59a01a0da56373dcd8ce85dded726b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gmsantos/inspiring/zipball/265365c7db59a01a0da56373dcd8ce85dded726b",
+                "reference": "265365c7db59a01a0da56373dcd8ce85dded726b",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gmsantos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "gmsantos",
+                    "email": "gabriel.ms1@hotmail.com"
+                }
+            ],
+            "description": "Alternative inspiring quotes for Laravel 5",
+            "keywords": [
+                "console",
+                "laravel",
+                "package"
+            ],
+            "time": "2015-10-23 14:01:24"
+        },
+        {
+            "name": "gmsantosxl/inspiring",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gmsantos/inspiring.git",
+                "reference": "265365c7db59a01a0da56373dcd8ce85dded726b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gmsantos/inspiring/zipball/265365c7db59a01a0da56373dcd8ce85dded726b",
+                "reference": "265365c7db59a01a0da56373dcd8ce85dded726b",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gmsantos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "gmsantos",
+                    "email": "gabriel.ms1@hotmail.com"
+                }
+            ],
+            "description": "Alternative inspiring quotes for Laravel 5",
+            "keywords": [
+                "console",
+                "laravel",
+                "package"
+            ],
+            "abandoned": "gmsantos/inspiring",
+            "time": "2015-10-23 14:01:24"
         },
         {
             "name": "jakub-onderka/php-console-color",
