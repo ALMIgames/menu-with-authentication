@@ -9,6 +9,26 @@
 namespace MenuWithAuthentication;
 
 
+use MenuWithAuthentication\Menu\MenuItem;
+
 class MenuWithAuthentication {
 
+
+    protected static $instance = null;
+
+    function __construct()
+    {
+    }
+
+    public static function menu($id)
+    {
+        return new MenuItem($id);
+    }
+
+    public static function instance(){
+        if(is_null(static::$instance)){
+            return static::$instance = new static;
+        }
+        return static::$instance;
+    }
 }

@@ -24,14 +24,15 @@ class MenuItem {
     protected $role;
     protected $permission;
     protected $user;
+    private $id;
 
 
     /**
-     *
+     * @param $id
      */
-    function __construct()
+    function __construct($id)
     {
-
+        $this->id = $id;
     }
 
     /**
@@ -129,6 +130,7 @@ class MenuItem {
         $data['title'] = $this->title;
         $data['url'] = $this->url;
         $data['icon'] = $this->icon;
+        $data['id'] = $this->id;
 //        $data['permission'] = $this->permission;
 //        $data['role'] = $this->role;
 //        $data['user'] = $this->user;
